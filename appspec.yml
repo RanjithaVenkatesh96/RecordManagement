@@ -11,6 +11,14 @@ permissions:
      mode: 755
      type:
        - file
+   - object: /var/www/html
+     pattern: "**"
+     except: [scripts]
+     owner: apache
+     group: apache
+     mode: 555
+     type:
+       - directory
 hooks:
    BeforeInstall:
     - location: scripts/installapache.sh
