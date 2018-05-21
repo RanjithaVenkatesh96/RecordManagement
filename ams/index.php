@@ -19,7 +19,9 @@
 ?>
 <div class="container text-center">
 <div class="container well">
-	<img src="<?php echo $dir; ?>images/logo_new.png" alt="Record Management System" style="width: 200px; height: auto;"/><h1>Record Management System</h1>
+	<div style="overflow: hidden; height: 208px;">
+		<img src="<?php echo $dir; ?>images/logo_new.png" alt="Record Management System" style="width: 200px; height: auto;"/><h1>Record Management System</h1>
+    </div>
 </div>
 </div>
 <div class="container">
