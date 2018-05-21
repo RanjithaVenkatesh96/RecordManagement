@@ -49,7 +49,7 @@ require_once $dir.'core/class_autoloader.php';
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-	<a href="<?php echo $dir?>" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;SAL Record Management System</a>
+	<a href="<?php echo $dir?>" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;Record Management System</a>
 	</div>
     <div class="navbar-collapse collapse bs-navbar-collapse">
     <?php

@@ -10,7 +10,7 @@ $form = <<<EOF
 	<div class="form-group {$class['inst_name']}">
 		<label class="mandatory col-lg-3 col-sm-3 control-label" for="inst_name">Institute Name:</label>
 		<div class="col-lg-5 col-sm-5">
-		<input class="form-control" type="text" name="inst_name" id="inst_name" maxlength="%d" value="{$this->inst_name}" placeholder="E.g. Sal Institute of Technology & Engineering Research"/>
+		<input class="form-control" type="text" name="inst_name" id="inst_name" maxlength="%d" value="{$this->inst_name}" placeholder="E.g. RRCE"/>
 		</div>
 		<div class="col-lg-4 col-sm-4 help-block">{$guide['inst_name']}</div>
 	</div>

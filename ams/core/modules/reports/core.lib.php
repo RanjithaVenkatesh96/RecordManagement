@@ -452,7 +452,7 @@ function generatePDFReport(&$response,$title,$o_id,$sem,$ac_id,$div,array $sub_i
 		$pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
 		// set document information
 		$pdf->SetCreator(PDF_CREATOR);
-		$pdf->SetAuthor('SAL AMS');
+		$pdf->SetAuthor('RMS');
 		$pdf->SetTitle('Report - '.strtoupper($title));
 		$pdf->SetSubject('Attendance Report');
 		//var_dump($_SESSION);
