@@ -20,8 +20,9 @@
 <div class="container text-center">
 <div class="container well">
 	<div style="overflow: hidden; height: 208px;">
-		<img src="<?php echo $dir; ?>images/logo_new.png" alt="Record Management System" style="width: 200px; height: auto;"/><h1>Record Management System</h1>
+		<img src="<?php echo $dir; ?>images/logo_new.png" alt="Record Management System" style="width: 200px; height: auto;"/>
     </div>
+    <h1>Record Management System</h1>
 </div>
 </div>
 <div class="container">
