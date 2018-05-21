@@ -4,9 +4,9 @@
 // Sucess and Error Texts can be separated.
 // $suc['field_name'] is set and set to true if successfully validated.
 if(!isset($suc['sub_code']) || $suc['sub_code'])
-	$guide['sub_code']="Enter Subject Code as per GTU.";
+	$guide['sub_code']="Enter Subject Code as per VTU.";
 else
-	$guide['sub_code']="Enter Subject Code as per GTU.";
+	$guide['sub_code']="Enter Subject Code as per VTU.";
 if(!isset($suc['sub_name']) || $suc['sub_name'])
 	$guide['sub_name']="Enter Subject Name.";
 else

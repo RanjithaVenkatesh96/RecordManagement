@@ -118,7 +118,7 @@ DROP TABLE IF EXISTS `Inst_Master`;
 CREATE TABLE IF NOT EXISTS `Inst_Master` (
 `inst_id` tinyint(3) unsigned NOT NULL COMMENT 'Primary Key',
   `inst_name` varchar(255) COLLATE latin1_general_ci NOT NULL COMMENT 'Institute Name',
-  `inst_code` varchar(10) COLLATE latin1_general_ci NOT NULL COMMENT 'Institute Code as per GTU',
+  `inst_code` varchar(10) COLLATE latin1_general_ci NOT NULL COMMENT 'Institute Code as per VTU',
   `inst_estb_year` smallint(4) DEFAULT NULL COMMENT 'Institute Established Year'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci COMMENT='List of Institutes' AUTO_INCREMENT=1 ;
 DROP TRIGGER IF EXISTS `BEFORE_inst_master_INSERT`;
@@ -250,7 +250,7 @@ DELIMITER ;
 DROP TABLE IF EXISTS `Sub_Master`;
 CREATE TABLE IF NOT EXISTS `Sub_Master` (
 `sub_id` smallint(5) unsigned NOT NULL COMMENT 'Primary Key',
-  `sub_code` varchar(10) COLLATE latin1_general_ci NOT NULL COMMENT 'Subject Code as per GTU',
+  `sub_code` varchar(10) COLLATE latin1_general_ci NOT NULL COMMENT 'Subject Code as per VTU',
   `sub_name` varchar(30) COLLATE latin1_general_ci NOT NULL COMMENT 'Subject Name',
   `sub_status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '1=Active 0=Deactive'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci COMMENT='List of Subjects' AUTO_INCREMENT=1 ;

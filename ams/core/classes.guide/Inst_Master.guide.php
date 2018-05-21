@@ -8,7 +8,7 @@ if(!isset($suc['inst_name']) || $suc['inst_name'])
 else
 	$guide['inst_name']="Please Enter Valid Institute Name!!";
 if(!isset($suc['inst_code']) || $suc['inst_code'])
-	$guide['inst_code']="Enter Institute Code as per GTU.";
+	$guide['inst_code']="Enter Institute Code as per VTU.";
 else
 	$guide['inst_code']="Please Enter Institute Code!!";
 if(!isset($suc['inst_estb_year']) || $suc['inst_estb_year'])

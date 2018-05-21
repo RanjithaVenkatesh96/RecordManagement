@@ -19,7 +19,7 @@
 ?>
 <div class="container text-center">
 <div class="container well">
-	<img src="<?php echo $dir; ?>images/logo.png" alt="SAL Technical Campus" /><h1>Record Management System</h1>
+	<img src="<?php echo $dir; ?>images/logo_new.png" alt="SAL Technical Campus" /><h1>Record Management System</h1>
 </div>
 </div>
 <div class="container">
